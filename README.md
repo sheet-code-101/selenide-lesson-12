@@ -1,5 +1,26 @@
-# Project in Allure TestOps with manual & automated tests
-<a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
+# Indy
+This small project contains several simple tests for Indy blog page.
+
+
+#Run tests:
+###To run tests locally use next command:
+```bash
+gradle clean test
+```
+###To run tests remotely use next command:
+```bash
+gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
+```
+
+###To create report use next command:
+```bash
+allure serve build/allure-results
+```
+
+
+
+
+
 
 # Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/%s">jenkins.autotests.cloud/job/%s</a>
