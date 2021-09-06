@@ -15,7 +15,7 @@ public class BlogTests extends TestBase{
         step("Check that 'Own your work' text present on landing page", () ->
             $(withText("Own you work")).isDisplayed());
     }
-
+/*
     @Test
     void verifyThatRegistrationIsLockedForNonUSUsers(){
         step("Click on 'Start for free' button", () ->
@@ -26,7 +26,7 @@ public class BlogTests extends TestBase{
             $("[data-id=tooltip]:nth-child(2)").shouldBe(visible)
                     .shouldHave(text("Indy isn’t available in your region yet.")));
     }
-
+*/
     @Test
     void verifyThatUserIsAbleToNavigateToProfilesPage(){
         step("Click on 'Profiles' link", () ->
