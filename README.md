@@ -17,7 +17,7 @@ gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -D
 allure serve build/allure-results
 ```
 ### After test run next report generates:
-![Allure report](Allure report.png)
+![Allure report](Allure report.png?raw=true)
 
 ### Also there will be a report in Telegram:
 ![Telegram report](Telegram report.png)
