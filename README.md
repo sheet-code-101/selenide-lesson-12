@@ -2,21 +2,21 @@
 This small project contains several simple tests for Indy blog page.
 
 
-#Run tests:
-###To run tests locally use next command:
+# Run tests:
+### To run tests locally use next command:
 ```bash
 gradle clean test
 ```
-###To run tests remotely use next command:
+### To run tests remotely use next command:
 ```bash
 gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
 ```
 
-###To create report use next command:
+### To create report use next command:
 ```bash
 allure serve build/allure-results
 ```
-
+### After test run next report generates:
 
 
 
