@@ -23,3 +23,6 @@ gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -D
 
 ### Also there will be a report in Telegram:
 ![Telegram report](https://github.com/sheet-code-101/selenide-lesson-12/blob/master/Telegram%20report.png)
+
+### Selenoid preview
+![Selenoid](https://github.com/sheet-code-101/selenide-lesson-12/blob/master/Selenoid.gif)
